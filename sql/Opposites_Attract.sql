@@ -1,0 +1,2 @@
+-- # write your SQL statement here: you are given a table 'love' with columns 'flower1' and 'flower2', return a table with all the columns and your result in a column named 'res'.
+select flower1, flower2, flower1%2 != flower2%2 as res from love;
