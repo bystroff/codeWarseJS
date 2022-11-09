@@ -1,0 +1,1 @@
+select *, floor(hours / 2) as liters from cycling;
